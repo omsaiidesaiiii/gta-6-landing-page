@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger)
 const App = () => {
   return <main>
     <div>
-        <h1>Welcome to the world of ga</h1>
+        <h1>Welcome to the world of Gta</h1>
     </div>
   </main>;
 };
