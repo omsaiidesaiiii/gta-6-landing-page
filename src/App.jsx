@@ -7,6 +7,7 @@ import Navbar from './sections/Navbar';
 gsap.registerPlugin (ScrollTrigger);
 
 const App = () => {
+
   return (
     <main>
       <Navbar />
