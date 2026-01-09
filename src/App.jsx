@@ -1,15 +1,18 @@
 import gsap from 'gsap';
 import React from 'react';
 import ScrollTrigger from 'gsap/all';
+import Hero from './sections/Hero';
+import Navbar from './sections/Navbar';
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin (ScrollTrigger);
 
 const App = () => {
-  return <main>
-    <div>
-        <h1>Welcome to the world of ga</h1>
-    </div>
-  </main>;
+  return (
+    <main>
+      <Navbar />
+      <Hero />
+    </main>
+  );
 };
 
 export default App;
